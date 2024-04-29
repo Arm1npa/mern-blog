@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:3000",
+        target: "bespoke-flan-5f1fea.netlify.app",
         secure: false,
       },
     },
